@@ -1,0 +1,29 @@
+.statsBox {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid lighten(black, 80%);
+  border-radius: 20px;
+  box-shadow: 1px 4px 5px 0px lighten(black, 80%);
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  &--selected {
+    border-top: 30px solid lighten(rebeccapurple, 20%);
+  }
+  &__title {
+    text-align: center;
+    padding: 5px;
+    color: black;
+    font-size: 2rem;
+  }
+  &__info {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    &__number {
+      font-size: 2rem;
+    }
+  }
+}

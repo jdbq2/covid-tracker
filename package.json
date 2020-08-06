@@ -1,0 +1,28 @@
+{
+  "name": "covid-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url ./"
+  },
+  "author": "Juan Diego Bohorquez <jdbq2@hotmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "chart.js": "^2.9.3",
+    "lea": "^2.2.4",
+    "leaflet": "^1.6.0",
+    "numeral": "^2.0.6",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.10.0",
+    "react-dom": "^16.13.1",
+    "react-leaflet": "^2.7.0"
+  }
+}
