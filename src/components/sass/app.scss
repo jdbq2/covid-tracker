@@ -48,3 +48,23 @@ h1 {
     overflow-x: hidden;
   }
 }
+
+@media screen and (min-width: 765px) {
+  .app__rigth {
+    max-height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .app {
+    grid-template: auto / 60% 40%;
+    grid-template-areas: "main stats";
+    overflow: hidden;
+    &__left {
+      overflow: hidden;
+    }
+    &__rigth {
+      overflow: hidden;
+    }
+  }
+}

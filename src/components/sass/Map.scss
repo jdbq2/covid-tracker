@@ -40,3 +40,14 @@
   font-size: 1rem;
   margin-top: 5px;
 }
+
+@media screen and (min-width: 765px) {
+  .map {
+    height: 30rem;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .map {
+    height: 20rem;
+  }
+}

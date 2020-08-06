@@ -27,3 +27,21 @@
     }
   }
 }
+
+@media screen and (min-width: 765px) {
+  .statsBox {
+    flex: 1;
+    &__title {
+      font-size: 2rem;
+    }
+    &__info {
+      margin: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      &__number {
+        font-size: 2rem;
+      }
+    }
+  }
+}

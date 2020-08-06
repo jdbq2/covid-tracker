@@ -1,9 +1,21 @@
 .statsSection {
   display: flex;
-  width: 70%;
+  width: 90%;
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
   padding: 10px;
   margin: 10px;
+}
+@media screen and (min-width: 765px) {
+  .statsSection {
+    flex-direction: initial;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .statsSection {
+    width: 100%;
+    height: 25vh;
+  }
 }
