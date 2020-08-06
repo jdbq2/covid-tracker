@@ -1,5 +1,4 @@
 node_modules/
 *.txt 
-dist/
 .cache/
 package-lock.json
